@@ -1,0 +1,19 @@
+name: migs-pp-23
+channels:
+    - anaconda
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.9
+    - numpy
+    - scipy
+    - matplotlib
+    - pandas
+    - seaborn
+    - requests
+    - jupyter
+    - ipykernel
+    - ipywidgets
+    - pip
+    - pip:
+        - py-openaq
